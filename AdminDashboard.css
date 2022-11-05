@@ -1,0 +1,154 @@
+body {
+    --color-primary: #4296E3;
+    --color-primary-dark: #3477b3;
+    --color-error: #ca5858;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.UserBar {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    vertical-align: middle;
+}
+
+.UserName {
+    color: black;
+    vertical-align: middle;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+}
+
+.Logo {
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    position: fixed;
+    font-size: 30px;
+    right: 20px;
+    top: 20px;
+}
+
+.Logo1 {
+    font-weight: 100;    
+}
+
+.Logo2 {
+    font-weight: 1000;
+}
+
+.title {
+    margin-top: 140px;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 5vw;
+}
+
+.Maintitle {
+    font-size: 50px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.Secenderytitle {
+    margin-top: 0;
+    color: #525252;
+    font-size: 18px;
+}
+
+.GroupBox {
+    display: flex;
+    height: 170px;
+    width: 87%;
+    border: 1px solid;
+    border-color: #f0f0f0;
+    background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-right: 5vw;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.GroupTitle {
+    height: 100%;
+    width: 33%;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.GroupName {
+    margin-top: 0;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.GroupDescription {
+    color: #b1b1b1;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.GroupData {
+    margin-top: 25px;
+    height: 100%;
+    width: 33%;
+    text-align: center;   
+    color: #b1b1b1; 
+    font-weight: lighter;
+}
+
+.GroupOwner {
+    margin-bottom: 35px;
+}
+
+.UsersData {
+    height: 100%;
+    width: 33%;  
+    background-color: #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20%;
+}
+
+.UsersEnd {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    text-align: center;
+}
+
+.progress {
+    height: 150px;
+    width: 150px;
+    background: conic-gradient(#4296E3 160deg, #ededed 0deg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProgressTitle {
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.progress::before {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "55%";
+    text-align: center;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
